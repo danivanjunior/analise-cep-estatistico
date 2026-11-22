@@ -16,16 +16,11 @@ Com este projeto, organizei a análise em etapas simples e reutilizáveis, indo 
 - **Visão por turno e máquina:** os resumos e gráficos comparam o comportamento das medições entre turnos e máquinas CNC, facilitando entender onde o processo está mais estável ou onde há maior dispersão.
 - **Apoio prático para a qualidade:** os gráficos interativos em Plotly e a tabela de saída (`outputs/resultado_cep.csv`) dão visibilidade rápida para ajustes preventivos, reduzindo o risco de sucata, retrabalho e atrasos na linha.
 
-## Estrutura do projeto
-
-```text
-cep-usinagem-cnc/
-├── data/
-│   └── dados_usinagem_cep.csv
-├── src/
-│   ├── etl.py
-│   ├── cep_analise.py
-│   └── visualizacoes.py
-├── main.py
-└── README.md
+| amostra | timestamp | turno | maquina | diametro_mm | lsl | usl | amplitude_movel | alertas | fora_de_controle |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :---: |
+| **1** | 2026-11-20 06:10:00 | Manha | CNC-01 | 10.02 | 9.70 | 10.30 | — | Normal | **False** |
+| **11** | 2026-11-20 11:10:00 | Manha | CNC-01 | **10.36** | 9.70 | 10.30 | 0.18 | Acima do UCL (3 Sigma)  | **True** |
+| **17** | 2026-11-20 16:10:00 | Tarde | CNC-01 | **9.62** | 9.70 | 10.30 | 0.38 | Abaixo do LCL (3 Sigma)  | **True** |
+| **25** | 2026-11-21 00:10:00 | Noite | CNC-02 | **10.10** | 9.70 | 10.30 | 0.01 | Sequencia de 7+ pontos no mesmo lado da media  | **True** |
+| **30** | 2026-11-21 02:40:00 | Noite | CNC-02 | 9.99 | 9.70 | 10.30 | 0.02 | Normal  | **False** |
 
