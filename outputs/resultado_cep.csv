@@ -1,0 +1,31 @@
+amostra,timestamp,turno,maquina,diametro_mm,lsl,usl,amplitude_movel,alertas,fora_de_controle
+1,2026-11-20 06:10:00,Manha,CNC-01,10.02,9.7,10.3,,Normal,False
+2,2026-11-20 06:40:00,Manha,CNC-01,9.98,9.7,10.3,0.03999999999999915,Normal,False
+3,2026-11-20 07:10:00,Manha,CNC-01,10.01,9.7,10.3,0.02999999999999936,Normal,False
+4,2026-11-20 07:40:00,Manha,CNC-01,10.04,9.7,10.3,0.02999999999999936,Normal,False
+5,2026-11-20 08:10:00,Manha,CNC-01,9.97,9.7,10.3,0.06999999999999851,Tendencia de 6+ pontos consecutivos,True
+6,2026-11-20 08:40:00,Manha,CNC-01,10.05,9.7,10.3,0.08000000000000007,Tendencia de 6+ pontos consecutivos,True
+7,2026-11-20 09:10:00,Manha,CNC-01,10.08,9.7,10.3,0.02999999999999936,Tendencia de 6+ pontos consecutivos,True
+8,2026-11-20 09:40:00,Manha,CNC-01,10.11,9.7,10.3,0.02999999999999936,Tendencia de 6+ pontos consecutivos,True
+9,2026-11-20 10:10:00,Manha,CNC-01,10.14,9.7,10.3,0.030000000000001137,Tendencia de 6+ pontos consecutivos,True
+10,2026-11-20 10:40:00,Manha,CNC-01,10.18,9.7,10.3,0.03999999999999915,Tendencia de 6+ pontos consecutivos,True
+11,2026-11-20 11:10:00,Manha,CNC-01,10.36,9.7,10.3,0.17999999999999972,Acima do UCL (3 Sigma) | Tendencia de 6+ pontos consecutivos,True
+12,2026-11-20 11:40:00,Manha,CNC-01,10.03,9.7,10.3,0.33000000000000007,Sequencia de 7+ pontos no mesmo lado da media,True
+13,2026-11-20 14:10:00,Tarde,CNC-01,9.99,9.7,10.3,0.03999999999999915,Sequencia de 7+ pontos no mesmo lado da media,True
+14,2026-11-20 14:40:00,Tarde,CNC-01,10.02,9.7,10.3,0.02999999999999936,Sequencia de 7+ pontos no mesmo lado da media,True
+15,2026-11-20 15:10:00,Tarde,CNC-01,9.96,9.7,10.3,0.05999999999999872,Sequencia de 7+ pontos no mesmo lado da media,True
+16,2026-11-20 15:40:00,Tarde,CNC-01,10.0,9.7,10.3,0.03999999999999915,Sequencia de 7+ pontos no mesmo lado da media,True
+17,2026-11-20 16:10:00,Tarde,CNC-01,9.62,9.7,10.3,0.3800000000000008,Abaixo do LCL (3 Sigma) | Sequencia de 7+ pontos no mesmo lado da media,True
+18,2026-11-20 16:40:00,Tarde,CNC-01,10.01,9.7,10.3,0.39000000000000057,Sequencia de 7+ pontos no mesmo lado da media,True
+19,2026-11-20 17:10:00,Tarde,CNC-01,10.03,9.7,10.3,0.019999999999999574,Sequencia de 7+ pontos no mesmo lado da media,True
+20,2026-11-20 17:40:00,Tarde,CNC-01,9.98,9.7,10.3,0.049999999999998934,Sequencia de 7+ pontos no mesmo lado da media | Tendencia de 6+ pontos consecutivos,True
+21,2026-11-20 22:10:00,Noite,CNC-02,10.06,9.7,10.3,0.08000000000000007,Sequencia de 7+ pontos no mesmo lado da media | Tendencia de 6+ pontos consecutivos,True
+22,2026-11-20 22:40:00,Noite,CNC-02,10.07,9.7,10.3,0.009999999999999787,Sequencia de 7+ pontos no mesmo lado da media | Tendencia de 6+ pontos consecutivos,True
+23,2026-11-20 23:10:00,Noite,CNC-02,10.08,9.7,10.3,0.009999999999999787,Sequencia de 7+ pontos no mesmo lado da media | Tendencia de 6+ pontos consecutivos,True
+24,2026-11-20 23:40:00,Noite,CNC-02,10.09,9.7,10.3,0.009999999999999787,Sequencia de 7+ pontos no mesmo lado da media | Tendencia de 6+ pontos consecutivos,True
+25,2026-11-21 00:10:00,Noite,CNC-02,10.1,9.7,10.3,0.009999999999999787,Sequencia de 7+ pontos no mesmo lado da media | Tendencia de 6+ pontos consecutivos,True
+26,2026-11-21 00:40:00,Noite,CNC-02,10.11,9.7,10.3,0.009999999999999787,Sequencia de 7+ pontos no mesmo lado da media | Tendencia de 6+ pontos consecutivos,True
+27,2026-11-21 01:10:00,Noite,CNC-02,10.12,9.7,10.3,0.009999999999999787,Sequencia de 7+ pontos no mesmo lado da media | Tendencia de 6+ pontos consecutivos,True
+28,2026-11-21 01:40:00,Noite,CNC-02,9.95,9.7,10.3,0.16999999999999993,Normal,False
+29,2026-11-21 02:10:00,Noite,CNC-02,10.01,9.7,10.3,0.0600000000000005,Normal,False
+30,2026-11-21 02:40:00,Noite,CNC-02,9.99,9.7,10.3,0.019999999999999574,Normal,False
